@@ -11,15 +11,27 @@
                 display: block;
                 position: absolute;
                 height: 100%; 
+                width: 50px;
                 background-color: lightblue;
             }
-            
+
+            .menu:hover {
+                background-color: lightblue;
+                width: 150px;
+            }
+
+            .menu:hover .menu-item{
+                display: block;
+            }
+
+
             .menu-item {
                 display: block;
                 padding: 10px 30px 10px 30px;
                 text-align: center;
                 position: relative;
                 cursor: pointer;
+                display: none;
             }
 
             .menu-item:hover {
